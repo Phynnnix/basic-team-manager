@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header';
-import Content from './Content';
+import Employees from './Employees';
 import Footer from './Footer';
 
 function App() {
   return (
     <div>
       <Header />
-      <Content />
+      <Employees />
       <Footer />
     </div>
   );
