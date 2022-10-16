@@ -1,7 +1,7 @@
 let Footer = () => {
     return (
-    <footer>
-        <h1>Footer</h1>
+    <footer className="p5 bg-primary text-white">
+        
     </footer>
     )
 };
