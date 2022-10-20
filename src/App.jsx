@@ -15,6 +15,7 @@ import Footer from './Footer';
 function App() {
   const [employees, setEmployees] = useState(JSON.parse(localStorage.getItem('employees')) || employeeList);
   const [selectedTeam, setTeam] = useState(JSON.parse(localStorage.getItem('selectedTeam')) || "teamC");
+  
   function handleTeamSelectionChange(ev){
     console.log(ev.target.value);
     setTeam(ev.target.value);
