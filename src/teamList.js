@@ -11,6 +11,10 @@ export const teamList = [
         tag: "teamC",
         name: "Team Destroy"
     },
+    {
+        tag: "teamD",
+        name: "Team Rebuild"
+    },
 ];
 
 const getTeamNameByTag = (tag) => {return teamList.filter((team) => team.tag === tag)[0].name};
